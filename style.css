@@ -37,3 +37,14 @@
 .removemargin {
     margin: 0;
 }
+
+.flex-ul {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.inline-li {
+    display: inline-block;
+    margin: 0 10px;
+}
