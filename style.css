@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600rem;
+}
+
+
+.centerall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+.headerstyle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    background: black;
+    justify-content: space-between;
+    justify-content: center;
+    height: 5rem;
+}
+
+.whitetext {
+    color: white;
+}
+
+.font-sz-l {
+    font-size: large;
+}
+
+.removemargin {
+    margin: 0;
+}
