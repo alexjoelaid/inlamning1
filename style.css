@@ -26,6 +26,14 @@
     height: 5rem;
 }
 
+.space-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
 .whitetext {
     color: white;
 }
