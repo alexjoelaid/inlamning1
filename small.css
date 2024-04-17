@@ -1,0 +1,17 @@
+@media (max-width: 980px) {
+    .header-style {
+        display: none;
+    }
+
+    .mobile-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        overflow: hidden;
+        position: absolute;
+        top: 0px;
+        background: transparent;
+        justify-content: space-between;
+        height: 5rem;
+    }
+}

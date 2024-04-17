@@ -1,0 +1,178 @@
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.selector {
+    opacity: value;
+}
+
+.mobile-header {
+    display: none
+}
+
+.page-font {
+    font-family: Helvetica, sans-serif;
+}
+
+.centerall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.header-style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    background: black;
+    justify-content: space-between;
+    justify-content: center;
+    height: 5rem;
+}
+
+.make-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.space-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.white-text {
+    color: white;
+}
+
+.font-sz-l {
+    font-size: large;
+}
+
+.remove-margin {
+    margin: 0;
+}
+
+.flex-ul {
+    display: flex;
+    align-items: center;
+}
+
+.inline-li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.fill-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 0;
+}
+
+.backround-image {
+    background-image: url('https: //rededition.com/wp-content/uploads/2023/11/Design-sans-titre-7-1-1440x725-c-bottom.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 60rem;
+    margin-top: -2rem;
+    margin-left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.resize-picture-fs {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    width: 100%;
+}
+
+.header-left {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    padding-left: 2rem;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.image-heading {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+.image-discover {
+    position: absolute;
+    top: 80%;
+    left: 0%;
+}
+
+.image-heading-sz {
+    font-size: 50px;
+}
+
+.image-discover-sz {
+    font-size: large;
+}
+
+.text-no-wrap {
+    white-space: nowrap;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    gap: 1;
+}
+
+
+.card {
+    display: flex;
+    flex: 1;
+    width: auto;
+    height: fit-content;
+}
+
+
+.container {
+    padding: 2px 16px;
+}
+
+.flex {
+    flex: 1;
+}
