@@ -149,6 +149,12 @@
     font-size: large;
 }
 
+.card-text {
+    position: absolute;
+    top: 50%;
+    left: 50%
+}
+
 .text-no-wrap {
     white-space: nowrap;
 }

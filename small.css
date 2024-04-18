@@ -16,6 +16,10 @@
             height: 5rem;
         }
 
+        .background-image {
+            background-image: url(./bilder/inzoomad-bg.png.png);
+        }
+
         .card-holder-div {
             flex-direction: column;
         }
@@ -23,6 +27,7 @@
         .footer-style {
             display: flex;
             flex-direction: column;
+            align-items: center;
             height: 35rem;
             margin-bottom: 0;
             padding-bottom: 0;
