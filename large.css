@@ -131,13 +131,13 @@
 
 .image-heading {
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 15%;
 }
 
 .image-discover {
     position: absolute;
-    top: 60%;
+    top: 40%;
     left: 15%;
 }
 
@@ -163,28 +163,47 @@
 
 .card-holder-div {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     width: 100%;
     box-sizing: border-box;
-    margin: 1rem 10rem;
+    margin: 4.5rem;
     margin-top: 100vh;
     position: relative;
     z-index: 10;
-    z-index: 2;
+    gap: 7rem;
 }
 
 .card {
-    flex: 1 0 5rem;
+    flex: 0 1 auto;
     box-sizing: border-box;
     margin: 1rem;
+    max-width: 400px;
+    height: auto;
 }
 
 .card img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
 .flex {
     flex: 1;
+}
+
+.footer-style {
+    display: flex;
+    background: black;
+    height: 20rem;
+    margin-bottom: 0;
+}
+
+.margin-footer-header {
+    margin-top: 3rem;
+}
+
+.margin-footer-info {
+    margin-top: 1rem;
 }
